@@ -1,0 +1,76 @@
+.tesimonmials{
+    margin: 80px auto;
+    padding: 0 80px;
+    position: relative;
+    /* background-color: red; */
+
+}
+.next-icon,  .prev-icon{
+    font-size: 3rem;
+    font-weight: 900;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY((-50%));
+    padding:15px;
+    width:50px ;
+    border-radius: 50%;
+    background: #2125A0;
+    cursor: pointer;
+
+
+}
+.prev-icon{
+    right: auto;
+    left: 0;
+}
+.prev-icon{
+    font-size: 3rem;
+}
+.slider{
+    overflow: hidden;
+
+}
+.slider ul{
+    display: flex;
+    width: 205%;
+    overflow-x: hidden;
+    transition: 0.5s;
+ 
+}
+.slider ul li{
+    list-style: none;
+    width: 50%;
+    padding: 20px;
+    text-align: justify;
+}
+
+.slider ul li p{
+    width: 80%;
+}
+.slider{
+    box-shadow:  0 0 20px rgba(0,0,0,0.5);
+    padding: 40px;
+    border-radius: 10px;
+    color: #676767;
+    line-height: 1.4;
+
+}
+.slider img{
+    width: 80px;
+    object-fit: cover;
+    object-position: top;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 4px solid #2125A0;
+}
+.userinfo{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.userinfo h3{
+    color: #2125A0;
+}
