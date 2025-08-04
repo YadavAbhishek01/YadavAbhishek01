@@ -5,7 +5,7 @@ import { GiBookmarklet } from "react-icons/gi";
 import { BiSolidBookReader } from "react-icons/bi";
 const Programs = () => {
   return (
-    <div className='programs  Container'>
+    <div className='programs'>
       <div className="program">
         <img src="https://images.unsplash.com/photo-1526781480235-d79b4866aa9c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHN0dWRlbnR8ZW58MHwxfDB8fHww" alt="" />
         <div className="caption">

@@ -25,6 +25,7 @@
     border: none;
     text-align: center;
     display: inline-block;
+    cursor: pointer;
 }
  .arrow{
    position: absolute;
@@ -49,3 +50,16 @@
     margin: 10px auto 20px;
     line-height: 1.4;
 }
+/* media query */   
+@media  (max-width: 800px)     {
+    .hero-txt h1{
+       font-size: 40px;               
+    }
+    .hero{
+        width: 100%;
+        padding: 0 0;
+        min-height: 100vh;
+
+    }
+    
+}                   

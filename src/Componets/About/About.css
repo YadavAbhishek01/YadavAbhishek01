@@ -52,3 +52,54 @@ img{
     text-transform: capitalize;
     color: rgb(5, 5, 52);
 }
+@media (max-width:800px){
+    .about{
+        width: 100%;
+        /* height: 10%; */
+    }
+    .about-left{
+        width: 50%;
+    }
+    .about-right{
+        width: 70%;
+    }
+    .about-right p
+    {   
+        width: 100%;
+        font-size: 14px;                
+    }
+    .about-right h3{
+        width: 100%;
+        font-size: 1.5rem;      
+    }
+    .about-right h2{
+        width: 100%;
+        font-size: 1rem;    
+    }
+}
+@media (max-width:1200px){
+    .about{
+        width: 100%;
+        /* height: 10%; */
+    }
+    .about-left{
+        width: 50%;
+    }
+    .about-right{
+        width: 50%;
+    }
+    .about-right p
+    {
+        font-size: 14px;
+        /* margin-top: 2rem;                 */
+    }
+    .about-right h3{
+        margin-bottom: 1rem;
+        font-size: 1.5rem;      
+    }
+    .about-right h2{
+        margin-bottom: 0.3rem;
+        width: 100%;
+        font-size: 1rem;    
+    }
+}

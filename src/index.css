@@ -28,3 +28,12 @@ a{
      font-weight: 600;
 
 }
+@media (max-width:1260px){
+    .Container{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .btn{
+        padding: 14px 22px;
+    }
+}

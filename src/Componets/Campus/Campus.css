@@ -49,3 +49,29 @@
    font-size:small;
 
 }
+@media (max-width:800px){
+    .galary{
+        /* flex-direction: column;      */
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem   ;
+    }
+   .galary img{
+    width: 50%;
+   }
+}
+@media (max-width:1200px){
+    .galary{
+        /* flex-direction: column;      */
+        display: flex;
+        /* width: 100%; */
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem   ;
+    }
+   .galary img{
+    width: 100%;
+   }
+}

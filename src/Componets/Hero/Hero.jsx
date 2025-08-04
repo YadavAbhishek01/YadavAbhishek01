@@ -3,7 +3,7 @@ import { FaArrowRight } from "react-icons/fa";
 import './Hero.css'
 const Hero = () => {
   return (
-    <div className='hero Container'>
+    <div className='hero'>
       <div className="hero-txt">
         <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
             <p>

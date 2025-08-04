@@ -5,22 +5,29 @@ import { IoChevronBackOutline } from "react-icons/io5";
 const Testimonials = () => {
 
   const slider=useRef()
+  let tx=0;
 
   const slideforword =()=>{
-
+    if( tx>-50){
+      tx -=25;
+    }
+    slider.current.style.transform=`translateX(${tx}%)`;
   }
   const slidebakword=()=>{
-
+    if( tx < 0){
+      tx +=25;
+    }
+    slider.current.style.transform=`translateX(${tx}%)`;
   }
   return (
-    <div className='tesimonmials  Container'>
-      <IoChevronBackOutline  className='prev-icon' onClick={slideforword}/>
-      <MdNavigateNext  className='next-icon' onClick={slidebakword}/>
+    <div className='tesimonmials'>
+      <IoChevronBackOutline  className='prev-icon' onClick={slidebakword}/>
+      <MdNavigateNext  className='next-icon' onClick={slideforword}/>
 
       <div className="slider">
       <ul ref={slider}>
         <li>
-          <div className="slide">
+          <div className="slide " >
             <div className="userinfo">
               <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D" alt="" />
               <div>
